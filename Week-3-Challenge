@@ -1,0 +1,20 @@
+function FirstReverse(str) { 
+  
+  //OPTION 1: Oops, All Strings!
+  let reversedStr = "";
+  for (let i = str.length - 1; i >= 0; i--) {
+    reversedStr += str[i];
+  }
+
+  //OPTION 2: Not All Strings
+  // let strArray = str.split("");
+  // strArray = strArray.reverse();
+  // let reversedStr = strArray.join("");
+
+
+  return reversedStr; 
+
+}
+   
+// keep this function call here 
+console.log(FirstReverse(readline()));
