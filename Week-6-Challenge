@@ -1,0 +1,9 @@
+function detectWord(str) {
+	var foundWord = "";
+	for (var i = 0; i < str.length; i++) {
+		if (str[i].toLowerCase() === str[i]) {
+			foundWord += str[i];
+		}
+	}
+	return foundWord;
+}
